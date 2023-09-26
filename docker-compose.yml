@@ -15,6 +15,7 @@ services:
     image: redis:6
 
   directus:
+    restart: always
     image: directus/directus:latest
     ports:
       - 8055:8055
