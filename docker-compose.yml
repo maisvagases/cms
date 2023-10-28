@@ -1,6 +1,7 @@
 version: "3"
 services:
   database:
+    restart: always
     image: postgis/postgis:13-master
     # Required when running on platform other than amd64, like Apple M1/M2:
     # platform: linux/amd64
@@ -12,6 +13,7 @@ services:
       POSTGRES_DB: "directus"
 
   cache:
+    restart: always
     image: redis:6
 
   directus:
