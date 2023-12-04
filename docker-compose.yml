@@ -22,7 +22,7 @@ services:
     ports:
       - 8055:8055
     volumes:
-      - ./uploads:/directus/uploads
+      - /var/www/vhosts/maisvagases.com.br/cms.maisvagases.com.br/uploads:/directus/uploads
       # If you want to load extensions from the host
       # - ./extensions:/directus/extensions
     depends_on:
