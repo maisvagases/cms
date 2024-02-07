@@ -51,6 +51,14 @@ services:
 
       ADMIN_EMAIL: "maisvagases@gmail.com"
       ADMIN_PASSWORD: "ronaldo13"
+      
+      STORAGE_LOCATIONS: "s3,local"
+      STORAGE_S3_DRIVER: "s3"
+
+      STORAGE_S3_ENDPOINT: "https://minio.xwhost.com.br"
+      STORAGE_S3_KEY: "XMt0JGQZ7UbqrC9hO7VH"
+      STORAGE_S3_SECRET: "xXfdffK8wukEzTUlo8fZacCbq3GSLnNS1kIAUsuC"
+      STORAGE_S3_BUCKET: "mves"
 
   # Make sure to set this in production
   # (see https://docs.directus.io/self-hosted/config-options#general)
