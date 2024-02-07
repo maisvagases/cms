@@ -59,6 +59,8 @@ services:
       STORAGE_LOCAL_KEY: "XMt0JGQZ7UbqrC9hO7VH"
       STORAGE_LOCAL_SECRET: "xXfdffK8wukEzTUlo8fZacCbq3GSLnNS1kIAUsuC"
       STORAGE_LOCAL_BUCKET: "mves"
+      STORAGE_LOCAL_FORCE_PATH_STYLE: "true"
+
 
   # Make sure to set this in production
   # (see https://docs.directus.io/self-hosted/config-options#general)
