@@ -55,7 +55,7 @@ services:
       STORAGE_LOCATIONS: "local"
       STORAGE_S3_DRIVER: "local"
 
-      STORAGE_LOCAL_ENDPOINT: "https://minio.xwhost.com.br"
+      STORAGE_LOCAL_ENDPOINT: "https://s3.xwhost.com.br"
       STORAGE_LOCAL_KEY: "XMt0JGQZ7UbqrC9hO7VH"
       STORAGE_LOCAL_SECRET: "xXfdffK8wukEzTUlo8fZacCbq3GSLnNS1kIAUsuC"
       STORAGE_LOCAL_BUCKET: "mves"
