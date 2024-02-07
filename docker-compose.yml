@@ -39,6 +39,10 @@ services:
       DB_USER: "directus"
       DB_PASSWORD: "directus"
 
+      SERVE_APP: true
+      NODE_ENV: development
+
+
       LOG_LEVEL: "debug"
 
       CACHE_ENABLED: "false"
