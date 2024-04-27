@@ -55,14 +55,6 @@ services:
       ADMIN_EMAIL: "maisvagases@gmail.com"
       ADMIN_PASSWORD: "ronaldo13"
       
-      STORAGE_LOCATIONS: "local"
-      STORAGE_LOCAL_DRIVER: "s3"
-
-      STORAGE_LOCAL_ENDPOINT: "https://s3.xwhost.com.br"
-      STORAGE_LOCAL_KEY: "XMt0JGQZ7UbqrC9hO7VH"
-      STORAGE_LOCAL_SECRET: "xXfdffK8wukEzTUlo8fZacCbq3GSLnNS1kIAUsuC"
-      STORAGE_LOCAL_BUCKET: "mves"
-      STORAGE_LOCAL_FORCE_PATH_STYLE: "true"
 
 
   # Make sure to set this in production
