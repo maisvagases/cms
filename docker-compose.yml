@@ -68,4 +68,3 @@ services:
       PGADMIN_DEFAULT_PASSWORD: "PCGt96eb"
     depends_on:
       - database
-
