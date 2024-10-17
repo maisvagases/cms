@@ -46,8 +46,8 @@ services:
       CACHE_STORE: "redis"
       REDIS: "redis://cache:6379"
 
-      CORS_ENABLED: "true"
-      CORS_ORIGIN: "http://localhost:3000,http://localhost,https://web.maisvagases.com.br,https://app.maisvagases.com.br,https://cms.maisvagases.com.br "
+      CORS_ENABLED: "false"
+      CORS_ORIGIN: "http://localhost:3000,http://localhost,https://web.maisvagases.com.br,https://app.maisvagases.com.br,https://cms.maisvagases.com.br"
       CORS_METHODS: 'GET,PUT,POST,PATCH,DELETE,HEAD'
       CORS_ALLOWED_HEADERS: 'Content-Type,Authorization'
       CORS_EXPOSED_HEADERS: 'Content-Range'
